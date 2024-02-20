@@ -38,34 +38,55 @@ flex-direction: column;
 /* here is the top header box .toppings */
     .toppings {
         border: black solid 1px;
-        flex: 1;
+        width: 1390px;
+        height: 50px;
         display: flex;
+
 
     }
 
 /* here are the two items of the flexbox toppings at the very top of our page container our header */
 
-        .parmesan {
+      .parmesan {
         border: green solid 2px;
         display: flex;
         flex: 1;
+        margin: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
         }
 
         .redsauce {
         border: red solid 2px;
         display: flex;
         flex: 1;
+        flex-wrap: wrap;
+        height: 20px;
+        margin: 20px;
+    
         }
 
+        /* these are items of the redsauce container */
 
-        }
+            .tomatosauce {
+                border: black soild 2px;
+                width: 50px;
+                height: 50px;
+                flex: 1;
+            }
+
+
+    
 
 
     /* here is the much larger lower box called spaghetti that is an item of container .pasta */
 
     .spaghetti {
-        border: silver solid 1px;
-        flex: 10;
+        border: blue solid 5px;
+       flex: 1;
         display: flex;
 
     }
