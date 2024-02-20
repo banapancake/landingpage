@@ -90,3 +90,51 @@ flex-direction: column;
         display: flex;
 
     }
+
+/* here are some containers that go inside of our spaghetti container */
+
+        .saute {
+        display: flex;
+        border: red solid 2px;
+        flex: 1;
+        flex-direction: column;
+
+        }
+
+        .heat {
+        
+        display: flex;
+        border: black solid 2px;
+        padding: 50px;
+        margin: 50px;
+        flex: 1;
+        align-content: center;
+        justify-content: center;
+        background-color: grey;
+
+        }
+
+
+        /* here are some containers that go inside of our saute */
+
+        .garlic {
+
+            display: flex;
+            border: pink solid 2px;
+            flex: 1;
+        }
+
+        .butter{
+
+            display: flex;
+            border: blue solid 2px;
+            flex: 1;
+        }
+
+
+        .oliveoil{
+
+            display: flex;
+            border:green solid 2px;
+            flex: 1;
+        }
