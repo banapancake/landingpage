@@ -1,0 +1,22 @@
+
+.dinner {
+display: flex;
+
+
+
+}
+
+.pasta {
+    border: green dotted 50px;
+    flex: 1;
+}
+
+.pizza {
+    border: Red solid 30px;
+    flex: 1;
+}
+
+.lasagna {
+    border: blue solid 50px;
+    flex: 2;
+}
