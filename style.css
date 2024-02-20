@@ -1,22 +1,71 @@
 
 .dinner {
+height: 600px;
+width: 1400px;
 display: flex;
+flex-direction: column;
 
 
 
 }
+/* pasta, pizza and lasagna are all different items within the flex container of dinner. They are the four main flexbox containers for our page*/
 
 .pasta {
-    border: green dotted 50px;
-    flex: 1;
+    border: green dotted 5px;
+    flex: 1.2;
+    display: flex;
+    flex-direction: column;
 }
 
+
 .pizza {
-    border: Red solid 30px;
+    border: Red solid 5px;
     flex: 1;
 }
 
 .lasagna {
-    border: blue solid 50px;
-    flex: 2;
+    border: blue solid 5px;
+    flex: 1;
 }
+
+.panini {
+    border: pink solid 5px;
+    flex: 0.8;
+}
+
+
+/* here we have the sub contents of .pasta */
+/* here is the top header box .toppings */
+    .toppings {
+        border: black solid 1px;
+        flex: 1;
+        display: flex;
+
+    }
+
+/* here are the two items of the flexbox toppings at the very top of our page container our header */
+
+        .parmesan {
+        border: green solid 2px;
+        display: flex;
+        flex: 1;
+        }
+
+        .redsauce {
+        border: red solid 2px;
+        display: flex;
+        flex: 1;
+        }
+
+
+        }
+
+
+    /* here is the much larger lower box called spaghetti that is an item of container .pasta */
+
+    .spaghetti {
+        border: silver solid 1px;
+        flex: 10;
+        display: flex;
+
+    }
