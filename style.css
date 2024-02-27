@@ -218,3 +218,29 @@ justify-content: space-evenly;
         flex-wrap: wrap;
         flex-direction: row;
         }  
+
+
+    /* these items will go inside of our lasagna text-box */
+
+    .noodles {
+    display: flex;
+    border: black solid 10px;
+    background-color: grey;
+    height: 200px;
+    width: 1380px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    /* this is a sub container of noodles that contain the text quote by Thor */ 
+
+    .gluten {
+display: flex;
+
+height: 100px;
+width: 350px;
+flex-wrap:wrap;
+
+    }
