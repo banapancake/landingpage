@@ -19,8 +19,12 @@ flex-direction: column;
 
 
 .pizza {
-    border: Red solid 5px;
-    flex: 1;
+    border: #ff0000 solid 5px;
+flex-grow: 1;
+justify-content: space-evenly;
+
+   
+   
 }
 
 .lasagna {
@@ -45,7 +49,7 @@ flex-direction: column;
 
     }
 
-/* here are the two items of the flexbox toppings at the very top of our page container our header */
+/* here are the two items of the flexbox toppings at the very top of our page container our header, these are within the pasta section*/
 
       .parmesan {
         border: green solid 2px;
@@ -138,3 +142,79 @@ flex-direction: column;
             border:green solid 2px;
             flex: 1;
         }
+
+    /* these are items and containers that are sub-sections of our pizza section */ 
+
+    .pepperoni {
+        display: flex;
+        border: blue solid 10px;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .vegetables {
+        display: flex;
+        border: black solid 2px;
+        height: 150px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        
+        }
+
+        .cheese {
+    
+        display: flex;
+        border: orange solid 2px;
+        flex-grow: 1;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        
+           
+            } 
+
+
+
+    /* this item goes inside the vegetables container to form the CONTAINER for blue boxes and the text underneath */
+
+
+
+    /* .yummyvegetables {
+    
+    display: flex;
+    border:green solid 10px;
+    flex: 1;
+    }
+
+
+
+    /* these items go inside the yummyvegetables container to form our blue boxes and the text underneath */
+
+
+    .onions {
+    
+        display: flexbox;
+        border: blue solid 2px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 100px;
+        width: 100px;
+
+        
+        }
+    
+    .asiago  {
+    
+        display: flex;
+        border: green solid 2px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 100px;
+        width: 100px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        }  
