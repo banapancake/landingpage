@@ -34,7 +34,21 @@ justify-content: space-evenly;
 
 .panini {
     border: pink solid 5px;
-    flex: 0.8;
+    flex-grow: 1;
+    width: 1394px;
+}
+
+.calzone {
+    display: flex;
+    border: black solid 5px;
+    flex-grow: 1;
+    width: 1394px;
+    height: 50px;
+    background-color: rgb(33, 33, 52);
+    color: white;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -242,5 +256,78 @@ display: flex;
 height: 100px;
 width: 350px;
 flex-wrap:wrap;
+
+    }
+
+
+    /* this is where the sub-items of the container .panini will go */
+
+    .ingredients {
+    display: flex;
+    background-color: blue;
+    border: black solid 2px;
+
+    height: 200px;
+    margin: 150px;
+
+    }
+
+
+    /* this is where the sub-items of the container .ingredients will go */
+
+
+    .meat {
+        display: flex;
+        border: black solid 2px;
+        flex: 3;
+        flex-direction: column;
+
+    }
+
+
+    .bread {
+        display: flex;
+        border: black solid 2px;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+
+    /* this is where the sub-items of the container bread will go */
+
+    .sourdough {
+        display: flex;
+        border: white solid 2px;
+        width: 150px;
+        height: 30px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* this is where the sub-items of the container meat will go */
+
+    .pastrami {
+
+        display: flex;
+        border: black solid 2px;
+        flex: 1;
+        justify-content: center;
+        align-items: flex-end;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .salami {
+
+        display: flex;
+        border: black solid 2px;
+        flex: 1;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
 
     }
