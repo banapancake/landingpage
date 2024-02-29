@@ -22,7 +22,7 @@ flex-direction: column;
 
 
 .pizza {
-    border: #ff0000 solid 5px;
+/* border: #ff0000 solid 5px; */
 flex-grow: 1;
 justify-content: space-evenly;
 
@@ -31,13 +31,14 @@ justify-content: space-evenly;
 }
 
 .lasagna {
-    border: blue solid 20px;
-    width: 1160px;
+  /*  border: blue solid 20px; */
+    display: flex;
+    width: 1200px;
     flex: 1;
 }
 
 .panini {
-    border: pink solid 5px;
+  /*  border: pink solid 5px; */
     flex-grow: 1;
     width: 1194px;
 }
@@ -177,7 +178,7 @@ justify-content: space-evenly;
             display: flex;
             /* border: red solid 2px; */
             flex: 1;
-            background-color: blue;
+            background-color: rgb(0, 76, 255);
             margin: 5px;
             margin-left: 120px;
             margin-right: 250px;
@@ -191,16 +192,20 @@ justify-content: space-evenly;
     /* these are items and containers that are sub-sections of our pizza section */ 
 
     .pepperoni {
-        display: flex;
-        border: blue solid 10px;
+        display: flex; 
+        /* border: blue solid 10px; */
+        margin-top: 20px;
         height: 20px;
         align-items: center;
         justify-content: center;
+        font-weight: bolder;
+        font-size: 22px;
+
         }
 
     .vegetables {
         display: flex;
-        border: black solid 2px;
+       /* border: black solid 2px; */
         height: 150px;
         flex-direction: row;
         flex-wrap: wrap;
@@ -213,7 +218,7 @@ justify-content: space-evenly;
         .cheese {
     
         display: flex;
-        border: orange solid 2px;
+       /*  border: orange solid 2px; */
         flex-grow: 1;
         height: 100px;
         justify-content: center;
@@ -246,8 +251,10 @@ justify-content: space-evenly;
         border: blue solid 2px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 100px;
-        width: 100px;
+        margin-top: 20px;
+        height: 140px;
+        width: 140px;
+        border-radius: 8px;
 
         
         }
@@ -255,11 +262,12 @@ justify-content: space-evenly;
     .asiago  {
     
         display: flex;
-        border: green solid 2px;
+       /* border: green solid 2px; */
         margin-left: 40px;
         margin-right: 40px;
+        margin-top: 30px;
         height: 100px;
-        width: 100px;
+        width: 140px;
         flex-wrap: wrap;
         flex-direction: row;
         }  
@@ -269,8 +277,8 @@ justify-content: space-evenly;
 
     .noodles {
     display: flex;
-    border: black solid 10px;
-    background-color: grey;
+    /* border: black solid 10px; */
+    background-color: rgb(215, 215, 215);
     height: 200px;
     width: 1150px;
     flex-grow: 1;
@@ -290,16 +298,24 @@ flex-wrap:wrap;
 
     }
 
+    .wheat {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+    }
+
 
     /* this is where the sub-items of the container .panini will go */
 
     .ingredients {
     display: flex;
-    background-color: blue;
-    border: black solid 2px;
-
-    height: 200px;
-    margin: 150px;
+    background-color: rgb(29, 148, 251);
+   /*  border: black solid 2px; */
+    height: 150px;
+    margin: 80px;
+    border-radius: 8px;
 
     }
 
@@ -309,7 +325,7 @@ flex-wrap:wrap;
 
     .meat {
         display: flex;
-        border: black solid 2px;
+       /* border: black solid 2px; */
         flex: 3;
         flex-direction: column;
 
@@ -318,7 +334,7 @@ flex-wrap:wrap;
 
     .bread {
         display: flex;
-        border: black solid 2px;
+       /* border: black solid 2px; */
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -336,6 +352,7 @@ flex-wrap:wrap;
         color: white;
         justify-content: center;
         align-items: center;
+        border-radius: 8px;
     }
 
     /* this is where the sub-items of the container meat will go */
@@ -343,7 +360,7 @@ flex-wrap:wrap;
     .pastrami {
 
         display: flex;
-        border: black solid 2px;
+       /* border: black solid 2px; */
         flex: 1;
         justify-content: center;
         align-items: flex-end;
@@ -355,7 +372,7 @@ flex-wrap:wrap;
     .salami {
 
         display: flex;
-        border: black solid 2px;
+      /*  border: black solid 2px; */
         flex: 1;
         justify-content: center;
         align-items: flex-start;
