@@ -1,7 +1,7 @@
 
 .dinner {
 height: 600px;
-width: 1400px;
+width: 1200px;
 display: flex;
 flex-direction: column;
 
@@ -11,10 +11,13 @@ flex-direction: column;
 /* pasta, pizza and lasagna are all different items within the flex container of dinner. They are the four main flexbox containers for our page*/
 
 .pasta {
-    border: green dotted 5px;
+    /* border: green dotted 5px; */
     flex: 1.2;
     display: flex;
     flex-direction: column;
+    background-color: rgb(33, 33, 52);
+    color: white;
+
 }
 
 
@@ -28,21 +31,22 @@ justify-content: space-evenly;
 }
 
 .lasagna {
-    border: blue solid 5px;
+    border: blue solid 20px;
+    width: 1160px;
     flex: 1;
 }
 
 .panini {
     border: pink solid 5px;
     flex-grow: 1;
-    width: 1394px;
+    width: 1194px;
 }
 
 .calzone {
     display: flex;
     border: black solid 5px;
     flex-grow: 1;
-    width: 1394px;
+    width: 1194px;
     height: 50px;
     background-color: rgb(33, 33, 52);
     color: white;
@@ -55,8 +59,8 @@ justify-content: space-evenly;
 /* here we have the sub contents of .pasta */
 /* here is the top header box .toppings */
     .toppings {
-        border: black solid 1px;
-        width: 1390px;
+      /*  border: black solid 1px; */
+        width: 1190px;
         height: 50px;
         display: flex;
 
@@ -66,31 +70,34 @@ justify-content: space-evenly;
 /* here are the two items of the flexbox toppings at the very top of our page container our header, these are within the pasta section*/
 
       .parmesan {
-        border: green solid 2px;
+     /*   border: green solid 2px; */
         display: flex;
         flex: 1;
-        margin: 20px;
+        margin-bottom: 20px;
+        margin-left:150px;
         font-size: 20px;
         font-weight: bold;
         padding: 10px;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         }
 
         .redsauce {
-        border: red solid 2px;
+      /*  border: red solid 2px; */
         display: flex;
         flex: 1;
-        flex-wrap: wrap;
         height: 20px;
-        margin: 20px;
-    
+        margin-bottom: 20px;
+        margin-right: 50px;
+        padding: 4px;
+        
+       
         }
 
         /* these are items of the redsauce container */
 
             .tomatosauce {
-                border: black soild 2px;
+               /*  border: black soild 2px; */
                 width: 50px;
                 height: 50px;
                 flex: 1;
@@ -103,7 +110,7 @@ justify-content: space-evenly;
     /* here is the much larger lower box called spaghetti that is an item of container .pasta */
 
     .spaghetti {
-        border: blue solid 5px;
+       /* border: blue solid 5px; */
        flex: 1;
         display: flex;
 
@@ -113,7 +120,8 @@ justify-content: space-evenly;
 
         .saute {
         display: flex;
-        border: red solid 2px;
+       /* border: red solid 2px; */
+        margin: 20px;
         flex: 1;
         flex-direction: column;
 
@@ -122,11 +130,11 @@ justify-content: space-evenly;
         .heat {
         
         display: flex;
-        border: black solid 2px;
-        padding: 50px;
-        margin: 50px;
+       /*  border: black solid 2px; */
+        margin: 10px;
+        margin-right: 100px;
         flex: 1;
-        align-content: center;
+        align-items: center;
         justify-content: center;
         background-color: grey;
 
@@ -138,24 +146,47 @@ justify-content: space-evenly;
         .garlic {
 
             display: flex;
-            border: pink solid 2px;
+           /* border: pink solid 2px; */
             flex: 1;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-right: 80px;
+            text-wrap: wrap;
+            font-weight: bold;
+          
+
         }
 
         .butter{
 
-            display: flex;
-            border: blue solid 2px;
+            display: flex; 
+           /* border: blue solid 2px; */
             flex: 1;
+            justify-content: center;
+            align-items: center;
+            padding-left: 120px;
+            padding-right: 20px;
+            
+           
         }
 
 
         .oliveoil{
 
             display: flex;
-            border:green solid 2px;
+            /* border: red solid 2px; */
             flex: 1;
+            background-color: blue;
+            margin: 5px;
+            margin-left: 120px;
+            margin-right: 250px;
+            justify-content: center;
+            align-items: center; 
+            border-radius: 5px;
         }
+
+
 
     /* these are items and containers that are sub-sections of our pizza section */ 
 
@@ -241,7 +272,7 @@ justify-content: space-evenly;
     border: black solid 10px;
     background-color: grey;
     height: 200px;
-    width: 1380px;
+    width: 1150px;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
