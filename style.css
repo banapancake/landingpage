@@ -12,11 +12,12 @@ flex-direction: column;
 
 .pasta {
     /* border: green dotted 5px; */
-    flex: 1.2;
+    flex: auto;
     display: flex;
     flex-direction: column;
     background-color: rgb(33, 33, 52);
     color: white;
+    height: 2000px;
 
 }
 
@@ -134,6 +135,7 @@ justify-content: space-evenly;
        /*  border: black solid 2px; */
         margin: 10px;
         margin-right: 100px;
+        margin-bottom: 50px;
         flex: 1;
         align-items: center;
         justify-content: center;
@@ -152,7 +154,7 @@ justify-content: space-evenly;
             justify-content: center;
             align-items: center;
             font-size: 30px;
-            margin-right: 80px;
+            margin-right: 100px;
             text-wrap: wrap;
             font-weight: bold;
           
@@ -167,7 +169,7 @@ justify-content: space-evenly;
             justify-content: center;
             align-items: center;
             padding-left: 120px;
-            padding-right: 20px;
+            padding-right: 30px;
             
            
         }
@@ -179,7 +181,7 @@ justify-content: space-evenly;
             /* border: red solid 2px; */
             flex: 1;
             background-color: rgb(0, 76, 255);
-            margin: 5px;
+            margin: 40px;
             margin-left: 120px;
             margin-right: 250px;
             justify-content: center;
