@@ -75,7 +75,7 @@ justify-content: space-evenly;
      /*   border: green solid 2px; */
         display: flex;
         flex: 1;
-        margin-bottom: 20px;
+        margin-top: 20px;
         margin-left:150px;
         font-size: 20px;
         font-weight: bold;
@@ -139,7 +139,7 @@ justify-content: space-evenly;
         flex: 1;
         align-items: center;
         justify-content: center;
-        background-color: grey;
+        background-color: rgb(33, 33, 52);
 
         }
 
@@ -154,7 +154,8 @@ justify-content: space-evenly;
             justify-content: center;
             align-items: center;
             font-size: 30px;
-            margin-right: 100px;
+            margin-right: 10
+            0px;
             text-wrap: wrap;
             font-weight: bold;
           
@@ -250,7 +251,7 @@ justify-content: space-evenly;
     .onions {
     
         display: flexbox;
-        border: blue solid 2px;
+        /* border: blue solid 2px; */
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 20px;
@@ -293,7 +294,7 @@ justify-content: space-evenly;
 
     .gluten {
 display: flex;
-
+margin-top:60px;
 height: 100px;
 width: 350px;
 flex-wrap:wrap;
